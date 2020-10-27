@@ -17,8 +17,39 @@ namespace DataManagementSystem.Controllers
         {
             _logger = logger;
         }
-
         public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult Home()
+        {
+            return View();
+        }
+        public IActionResult About()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        public IActionResult Faculties()
+        {
+            return View();
+        }
+        public IActionResult Programme()
+        {
+            return View();
+        }
+        public IActionResult StartUps()
+        {
+            return View();
+        }
+        public IActionResult Beneficiaries()
+        {
+            return View();
+        }
+        public IActionResult Reports()
         {
             return View();
         }
