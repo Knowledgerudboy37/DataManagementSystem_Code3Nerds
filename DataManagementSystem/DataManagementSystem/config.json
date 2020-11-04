@@ -1,5 +1,13 @@
 {
+  
   "ConnectionStrings": {
-    "DmsConnectionString":"Data source=(localdb)\\MSQLLocalDB; Integrated Security=True; Encrypt=False;Database=DmsDB;MultipleActiveResultSets=true;"
+    "DmsConnectionString": "Data Source=(localdb)\\MSSQLLocalDB;Database=DataManagementDB;Integrated Security=True;MultipleActiveResultSets=true;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+  },
+
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
   }
 }

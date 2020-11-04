@@ -1,14 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
-
 namespace DataManagementSystem.Data
 {
-    public class DmsContext : DbContext
+    public class DmsContext : Microsoft.EntityFrameworkCore.DbContext
     {
         public DmsContext(DbContextOptions<DmsContext> options) : base(options)
         {
