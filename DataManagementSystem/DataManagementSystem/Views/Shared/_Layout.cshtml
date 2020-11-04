@@ -5,33 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - DataManagementSystem</title>
     <link href="~/css/css/all.min.css" rel="stylesheet" />
-  
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
 
     <div id="theNav">
-        <a asp-area="" asp-controller="Home" asp-action="Home">Home</a>
-        <a asp-area="" asp-controller="Home" asp-action="About">About</a>
-        <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
 
+        <a asp-area="" asp-controller="Home" asp-action="Home"><i class="fa fa-phone"></i>Contact</a>
+        <a asp-area="" asp-controller="Home" asp-action="About"><i class="fa fa-address-book"></i>About</a>
+        <a asp-area="" asp-controller="Home" asp-action="Contact"><i class="fa fa-home"></i>Home</a>
+
+        <a asp-area="" asp-controller="Home" asp-action="Login"><i class="fa fa-user"></i>Login</a>
     </div>
     <header>
         <div class="sidenav">
             <div id=" img1">
-
-
-                <img src="~/img/tshimologong_logo_white.gif" style="width:250px"/>
+             <img src="~/img/tshimologong_logo_white.gif" style="width:250px"/>
             </div>
-            <br />
-            <br />
-            <a asp-area="" asp-controller="Home" asp-action="Faculties"><i class="fas fa-layer-group"> FACULTIES</i></a>
-            <a asp-area="" asp-controller="Home" asp-action="Programme"><i class="far fa-copy"> PROGRAMME</i> </a>
-            <a asp-area="" asp-controller="Home" asp-action="StartUps"><i class="far fa-star"> START-UPS</i></a>
-            <a asp-area="" asp-controller="Home" asp-action="Beneficiaries"><i class="fas fa-person-booth"> BENEFICIARIES</i></a>
-            <a asp-area="" asp-controller="Home" asp-action="Reports"><i class="far fa-file-word"></i> REPORTS</a>
-
+            <br/>
+            <br/>
+            
+                <a asp-area="" asp-controller="Home" asp-action="Faculties"> <i class="fas fa-layer-group"></i>   FACULTIES</a>
+                <a asp-area="" asp-controller="Home" asp-action="Programme"> <i class="far fa-copy"></i>     PROGRAMME </a>
+                <a asp-area="" asp-controller="Home" asp-action="StartUps">  <i class="far fa-star"></i>      START-UPS</a>
+                <a asp-area="" asp-controller="Home" asp-action="Beneficiaries"><i class="fas fa-person-booth"></i>     BENEFICIARIES</a>
+                <a asp-area="" asp-controller="Home" asp-action="Reports"><i class="far fa-file-word"></i>    REPORTS</a>
+            
         </div>
     </header>
     
