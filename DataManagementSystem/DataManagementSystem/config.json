@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DmsConnectionString":"Data source=(localdb)\\MSQLLocalDB; Integrated Security=True; Encrypt=False;Database=DmsDB;MultipleActiveResultSets=true;"
+  }
+}

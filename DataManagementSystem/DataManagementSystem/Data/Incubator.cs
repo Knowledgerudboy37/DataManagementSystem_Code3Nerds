@@ -13,5 +13,6 @@ namespace DataManagementSystem.Data
 
         public ICollection<Programme> Programmes { get; set; }
         public ICollection<Incubator> Incubators { get; set; }
+
     }
 }
