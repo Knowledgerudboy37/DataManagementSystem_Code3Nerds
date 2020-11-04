@@ -2,6 +2,7 @@
     margin:0px;
     padding:0px;
 }
+
 body{
     margin:0;
     font-family:lobster;
@@ -12,13 +13,12 @@ body{
     overflow: hidden;
 }
 
-#theNav a
-{
-color: white;
-float: right;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+#theNav a {
+    color: white;
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 #theNav a:hover
@@ -43,26 +43,23 @@ for details on configuring this project to bundle and minify static web assets. 
     padding-top: 0px;
 }
 
-    /* Style the sidenav links  */
-    .sidenav a {
-        padding: 6px 8px 6px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        color: #818181;
-        display: block;
-        border: none;
-        background: none;
-        width: 100%;
-        text-align: left;
-        cursor: pointer;
-        outline: none;
-        color: #f1f1f1;
-    }
-
-
+/* Style the sidenav links  */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    color: #f1f1f1;
+}
 
 #img1{
    width:20px;
    height:20px;
 }
-
