@@ -9,6 +9,9 @@ namespace DataManagementSystem.Data
     {
         public int Id { get; set; }
         public int String { get; set; }
-      public ICollection<Faculty> Faculty { get; set; }
+      public ICollection<Faculty> Faculties { get; set; }//reference to faculty
+
+      public ICollection<Address> Addresses { get; set; }
+
     }
 }

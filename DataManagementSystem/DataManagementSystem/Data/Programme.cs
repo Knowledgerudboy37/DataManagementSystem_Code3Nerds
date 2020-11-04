@@ -21,8 +21,12 @@ namespace DataManagementSystem.Data
 
    
 
-        public Incubator Incubator { get; set; }
+        public Incubator Incubator { get; set; }//foreign key
 
-        public ICollection<StartUp> startUp { get; set; }
+        public ICollection<StartUp> StartUps { get; set; }//
+
+        public ICollection<Beneficiary> Beneficiaries { get; set; }
+
+        public ICollection<Report> Reports { get; set; }
     }
 }

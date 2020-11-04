@@ -14,6 +14,6 @@ namespace DataManagementSystem.Data
 
         public Company Company { get; set; }
 
-        public ICollection<Incubator> Incubator{ get; set; }
+        public ICollection<Incubator> Incubators{ get; set; }
 }
 }
