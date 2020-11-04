@@ -9,13 +9,9 @@ namespace DataManagementSystem.Data
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public Faculty Faculty { get; set; }
+        public Faculty Faculty{ get; set; }
 
         public ICollection<Programme> Programmes { get; set; }
-
         public ICollection<Incubator> Incubators { get; set; }
-
-
-
     }
 }
