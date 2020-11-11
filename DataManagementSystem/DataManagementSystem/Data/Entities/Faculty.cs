@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DataManagementSystem.Data
+namespace DataManagementSystem.Data.Entities
 {
     public class Faculty
     {
         public int Id { get; set; }
+
         public string TradeName { get; set; }
+
         public string RegisteredName { get; set; }
+
         public string OfficeName { get; set; }
 
         public Company Company { get; set; }

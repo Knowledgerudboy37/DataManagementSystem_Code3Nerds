@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DataManagementSystem.Data
+namespace DataManagementSystem.Data.Entities
 {
     public class Beneficiary
     {
@@ -11,15 +11,11 @@ namespace DataManagementSystem.Data
 
         public string FirstName { get; set; }
 
-
         public string LastName{ get; set; }
-
 
         public DateTime DateOfBirth { get; set; }
 
-
         public string IdNo { get; set; }
-
 
         public string PassportNo { get; set; }
 
@@ -38,9 +34,9 @@ namespace DataManagementSystem.Data
         public string CellPhoneNo { get; set; }
 
         public string AlternativePhoneNo { get; set; }
-        public Programme Programme { get; set; }
-        public ICollection<Address> Addresses { get; set; }
 
-       
+        public Programme Programme { get; set; }
+
+        public ICollection<Address> Addresses { get; set; }
     }
 }

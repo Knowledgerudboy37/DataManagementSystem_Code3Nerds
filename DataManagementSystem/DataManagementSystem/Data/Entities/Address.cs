@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DataManagementSystem.Data
+namespace DataManagementSystem.Data.Entities
 {
     public class Address
     {
@@ -15,9 +15,11 @@ namespace DataManagementSystem.Data
 
         public string Line3 { get; set; }
 
-        public string PostalCode { get; set;}
-        public string Suburb { get; set;}
-        public string Province { get; set;}
+        public string PostalCode { get; set; }
+
+        public string Suburb { get; set; }
+
+        public string Province { get; set; }
 
         public string Country { get; set; }
 
